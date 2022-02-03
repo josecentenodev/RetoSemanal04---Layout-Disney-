@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    background-color: #040714;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+/* Empezar con valores globales */
+/* color del boton suscribite: #0063e5; */
+
+/* HEADER */
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+li {
+    height: 50px;
+    list-style: none;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 9px 12px;
+    border-radius: 4px;
+    border: 1px solid silver;
+    margin-right: 7px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+nav {
+    top: 0;
+    background-color: #040714;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+}
+
+
+.logo {
+    max-height: 70px;
+    padding: 15px;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.botonera {
+    margin-right: 25px;
+}
+
+.suscribite {
+    background-color: #0063e5;
+    border: 1px solid #0063e5;
+}
+
+.suscribite:hover {
+    background-color: #016cf9;
+    border: 1px solid #016cf9;
+}
+
+.iniciarSesion a {
+    color: inherit;
+}
+
+.iniciarSesion:hover {
+    color: #040714;
+    background-color: #f9f9f9;
+}
+
+.combo {
+    height:100vh;
+    background: url('/img/original.jfif') center center;        background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .combo {
+        background-image: url(//cnbl-cdn.bamgrid.com/assets/3b06d96889a9ffae5177c1abf9c5072b4a342b060c30c0cee37d2a765df3777c/original);
+    }
+    
+    .containerCombo {
+        display: flex;
+    }
+}
+
+/* FIN DEL HEADER */
