@@ -1,0 +1,472 @@
+body {
+    margin: 0;
+    background-color: #040714;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+/* Empezar con valores globales */
+/* color del boton suscribite: #0063e5; */
+
+/* HEADER */
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+li {
+    height: 50px;
+    list-style: none;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 9px 12px;
+    border-radius: 4px;
+    border: 1px solid silver;
+    margin-right: 7px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+nav {
+    top: 0;
+    background-color: #040714;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 5;
+}
+
+.logo {
+    max-height: 70px;
+    padding: 15px;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.botonera {
+    margin-right: 25px;
+}
+
+.suscribite {
+    background-color: #0063e5;
+    border: 1px solid #0063e5;
+}
+
+.suscribite:hover {
+    background-color: #016cf9;
+    border: 1px solid #016cf9;
+}
+
+.iniciarSesion a {
+    color: inherit;
+}
+
+.iniciarSesion:hover {
+    color: #040714;
+    background-color: #f9f9f9;
+}
+/* FIN DEL HEADER */
+/* ******************************** */
+/* ******************************** */
+/* SECCION COMBO */
+
+section {
+    box-sizing: border-box;
+    padding: 5.6vw;
+}
+
+.combo {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    padding: 5.6vw;
+    background: url('/img/original.jfif') center center;        background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    box-sizing: border-box;
+}
+
+.containerCombo {
+    text-align: center;
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.containerCombo h3 {
+    margin-top: 0;
+    font-size: 28px;
+    line-height: 38px;
+}
+
+.comboLoco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.comboLocoList {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.suscribime {
+    text-transform: uppercase;
+    background-color: #0063e5;
+    border: 1px solid #0063e5;
+    padding: 20.5px 33px;
+    width: 100%;
+    height: 68px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.suscribime:hover {
+    background-color: #016cf9;
+    border: 1px solid #016cf9;
+}
+
+.logoCombo img {
+    max-width: 400px;
+}
+
+.footNote {
+    font-size: 12px;
+    line-height: 22px;
+    text-transform: none;
+    color: silver;
+}
+
+.soloDisney {
+    padding: 0;
+    color: #f9f9f9;
+    cursor: pointer;
+    text-transform: none;
+    text-decoration: underline;
+    border: none;
+    text-align: inherit;
+    margin-top: 10px;
+}
+
+.footNote2 {
+    color: silver;
+    text-transform: none;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 3px;
+}
+
+/* ******************************** */
+/* ******************************** */
+/* JUNTES LES CUATRO */
+
+.juntesLesCuatro {
+    display: flex;
+    flex-direction: column;
+}
+
+.pareja1 {
+    display: flex;
+    width: 100%;
+    margin-bottom: 250px;
+    align-items: center;
+}
+
+.pareja1-texto {
+    padding-left: 50px;
+}
+
+.pareja1 img {
+    width: 50%;
+    height: auto;
+}
+
+.pareja1-texto h2 {
+    margin-top: 0;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.pareja1-texto p {
+    font-size: 20px;
+    line-height: 30px;
+    color: silver;
+}
+
+.pareja2 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.pareja2 img {
+    width: 50%;
+    height: auto;
+}
+
+.pareja2-texto p {
+    font-size: 20px;
+    line-height: 30px;
+    color: silver;
+}
+
+
+.suscribiteCombo {
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: #0063e5;
+    border: 1px solid #0063e5;
+    padding: 20.5px 33px;
+    height: 68px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+/* ******************************** */
+/* ******************************** */
+/* SIMBA'S SECTION */
+
+.simba {
+    display: flex;
+    align-items: center;
+}
+
+.simba img {
+    width: 100%;
+    z-index: -1;
+}
+
+.simbaTexto {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 50%;
+    right: 5vw;
+}
+
+.simbaTexto h3 {
+    font-size: 28px;
+    line-height: 38px;
+}
+
+.simbaTexto p {
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: .2px;
+    color: silver;
+}
+
+/* ******************************** */
+/* ******************************** */
+/* DEVICES'S SECTION */
+
+.devices h2 {
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.devicesLi h3 {
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 24px;
+}
+
+.devicesLi p {
+    font-size: 18px;
+    line-height: 28px;
+    color: silver;
+}
+
+.devicesUl {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    justify-content: space-around;
+}
+
+.devicesLi {
+    width: 20%;
+    border: none;
+    text-transform: none;
+    text-align: center;
+    padding: 0;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.devicesLi img {
+    width: 100%;
+}
+
+/* ******************************** */
+/* ******************************** */
+/* DISNEY FOOTER */
+
+footer {
+    text-align: center;
+}
+
+footer img {
+    margin: 0 auto;
+    width: 80px;
+    text-align: center;
+}
+
+footer a {
+    color: silver;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+    padding: 0 12px;
+}
+
+footer a:hover {
+    color: #f9f9f9;
+}
+
+footer p {
+    font-size: 12px;
+    line-height: 22px;
+    color: silver;
+    padding: 20px 5px;
+}
+
+.footerLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.idiomas {
+    display: flex;
+}
+
+.idiomas:hover {
+    cursor: pointer;
+}
+.globe {
+    width: 20px;
+    margin-right: 4px;
+}
+
+footer select  {
+    appearance: none;
+    background-color: inherit;
+    color: silver;
+    border: none;
+}
+
+footer select:hover {
+    color: #FFF;
+    cursor: pointer;
+}
+
+select option {
+    color: initial;
+}
+
+
+
+
+/* ******************************** */
+/* ******************************** */
+/* Media Q */
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        display: none;
+    }
+    .botonera {
+        width: 100%;
+        text-align: right;
+    }
+    .combo {
+        background-image: url(//cnbl-cdn.bamgrid.com/assets/3b06d96889a9ffae5177c1abf9c5072b4a342b060c30c0cee37d2a765df3777c/original);
+    }
+    .containerCombo {
+        max-width: 640px;
+        justify-content: center;
+        width: 100%;
+        margin-top: 50vw;
+    }
+
+    .devicesUl {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .botonera {
+        display: flex;
+    }
+    .logoCombo img {
+        width: 80%;
+    }
+
+    .pareja1 {
+        flex-direction: column;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .pareja1 img {
+        margin-bottom: 20px;
+    }
+
+    .pareja2 {
+        flex-direction: column-reverse;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .simba {
+        flex-direction: column;
+    }
+    .simba img {
+        position: inherit;
+    }
+    .simbaTexto {
+        position: inherit;
+    }
+
+    .devicesUl {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .devicesLi {
+        margin-bottom: 50px;
+    }
+
+    .footerLinks {
+        flex-wrap: wrap;
+    }
+
+}
